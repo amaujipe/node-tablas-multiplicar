@@ -1,5 +1,7 @@
-# NodeJS - Tablas de Multiplicar:
+# NodeJS - Tablas de Multiplicar
 Este es un pequeño programa en Node, que permite crear un archivo de texto con la tabla de multiplicar solicitada por consola.
+
+Ejemplo de uso: Si quiere crear la tabla del 5, debe usar el comando `node app -b 5`
 
 ```
 Opciones:
