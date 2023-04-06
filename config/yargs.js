@@ -1,3 +1,4 @@
+// Se crea la configuracion de los argumentos que se recibiran por consola
 const argv = require('yargs')
     .options({
         'b': {
@@ -19,13 +20,13 @@ const argv = require('yargs')
             describe: 'Muestra la tabla de multiplicar en consola'
         }
     })
-    .check( (argv, options) => {
+    .check( (argv) => {
 
         if( isNaN(argv.b) )
-            throw 'La base debe ser un numero.';
+            throw 'La opcion [-b, --base] debe ser un numero.';
 
         if( isNaN(argv.h) )
-            throw 'La opcion hasta debe ser un numero.'
+            throw 'La opcion [-h, --hasta] debe ser un numero.'
         
         return true;
 
