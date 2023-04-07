@@ -1,6 +1,6 @@
 // Importacion de metodos y variables
-const { crearArchivo }         = require('./helpers/crearArchivoTabla');
-const { listarTablaEnConsola } = require('./helpers/listarTableEnConsola');
+const { crearArchivo } = require('./helpers/crearArchivoTabla');
+const { listarTablaEnConsola } = require('./helpers/listarTablaEnConsola');
 const argv  = require('./config/yargs');
 
 // Importacion del paquete colors de npm
